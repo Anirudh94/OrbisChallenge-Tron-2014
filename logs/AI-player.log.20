@@ -1,0 +1,15 @@
+20/09/2014 07:22:32.944] - [INFO] - Client starting
+20/09/2014 07:22:33.109] - [INFO] - [id: 0x6dbc925d] OPEN
+20/09/2014 07:22:33.139] - [INFO] - [id: 0x6dbc925d, /127.0.0.1:1277 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:1277
+20/09/2014 07:22:33.141] - [INFO] - [id: 0x6dbc925d, /127.0.0.1:1277 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+20/09/2014 07:22:34.615] - [INFO] - writing response back for turn 1 for player 1
+20/09/2014 07:22:34.642] - [INFO] - message sent: took 767,422,136
+20/09/2014 07:22:35.230] - [INFO] - writing response back for turn 2 for player 1
+20/09/2014 07:22:35.234] - [INFO] - message sent: took 443,761,005
+20/09/2014 07:22:35.262] - [INFO] - [id: 0x6dbc925d, /127.0.0.1:1277 :> localhost/127.0.0.1:19999] DISCONNECTED
+20/09/2014 07:22:35.264] - [INFO] - [id: 0x6dbc925d, /127.0.0.1:1277 :> localhost/127.0.0.1:19999] UNBOUND
+20/09/2014 07:22:35.265] - [INFO] - [id: 0x6dbc925d, /127.0.0.1:1277 :> localhost/127.0.0.1:19999] CLOSED
+20/09/2014 07:22:41.179] - [INFO] - Client starting
+20/09/2014 07:22:41.376] - [INFO] - [id: 0x13fc2ef6] OPEN
+20/09/2014 07:22:41.400] - [INFO] - [id: 0x13fc2ef6, /127.0.0.1:1280 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:1280
+20/09/2014 07:22:41.411] - [INFO] - [id: 0x13fc2ef6, /127.0.0.1:1280 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999

@@ -1,0 +1,117 @@
+21/09/2014 02:01:01.224] - [INFO] - Client starting
+21/09/2014 02:01:01.563] - [INFO] - [id: 0x1f5cebb1] OPEN
+21/09/2014 02:01:01.621] - [INFO] - [id: 0x1f5cebb1, /127.0.0.1:3290 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:3290
+21/09/2014 02:01:01.632] - [INFO] - [id: 0x1f5cebb1, /127.0.0.1:3290 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+21/09/2014 02:01:01.716] - [INFO] - [id: 0x1f5cebb1, /127.0.0.1:3290 :> localhost/127.0.0.1:19999] DISCONNECTED
+21/09/2014 02:01:01.721] - [INFO] - [id: 0x1f5cebb1, /127.0.0.1:3290 :> localhost/127.0.0.1:19999] UNBOUND
+21/09/2014 02:01:01.725] - [INFO] - [id: 0x1f5cebb1, /127.0.0.1:3290 :> localhost/127.0.0.1:19999] CLOSED
+21/09/2014 02:01:01.823] - [SEVERE] - Unexpected exception from upstream. java.nio.channels.ClosedChannelException
+
+21/09/2014 02:01:06.841] - [INFO] - Client starting
+21/09/2014 02:01:06.985] - [INFO] - [id: 0x7af5a707] OPEN
+21/09/2014 02:01:07.010] - [INFO] - [id: 0x7af5a707, /127.0.0.1:3293 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:3293
+21/09/2014 02:01:07.013] - [INFO] - [id: 0x7af5a707, /127.0.0.1:3293 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+21/09/2014 02:01:07.793] - [INFO] - writing response back for turn 1 for player 1
+21/09/2014 02:01:07.804] - [INFO] - message sent: took 91,572,618
+21/09/2014 02:01:25.403] - [SEVERE] - Exception thrown in getMove on turn 2
+java.lang.NullPointerException
+	at GameMap.bfs(GameMap.java:254)
+	at GameMap.whichPath(GameMap.java:112)
+	at PlayerAI.getMove(PlayerAI.java:56)
+	at ClientHandler.messageReceived(ClientHandler.java:85)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at ClientHandler.handleUpstream(ClientHandler.java:40)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.oio.OioWorker.process(OioWorker.java:71)
+	at org.jboss.netty.channel.socket.oio.AbstractOioWorker.run(AbstractOioWorker.java:73)
+	at org.jboss.netty.channel.socket.oio.OioWorker.run(OioWorker.java:51)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+21/09/2014 02:01:25.411] - [INFO] - writing response back for turn 2 for player 1
+21/09/2014 02:01:25.413] - [INFO] - message sent: took 17,465,795,332
+21/09/2014 02:03:00.172] - [SEVERE] - Exception thrown in getMove on turn 3
+java.lang.NullPointerException
+	at GameMap.bfs(GameMap.java:254)
+	at GameMap.whichPath(GameMap.java:112)
+	at PlayerAI.getMove(PlayerAI.java:56)
+	at ClientHandler.messageReceived(ClientHandler.java:85)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at ClientHandler.handleUpstream(ClientHandler.java:40)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.oio.OioWorker.process(OioWorker.java:71)
+	at org.jboss.netty.channel.socket.oio.AbstractOioWorker.run(AbstractOioWorker.java:73)
+	at org.jboss.netty.channel.socket.oio.OioWorker.run(OioWorker.java:51)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+21/09/2014 02:03:00.183] - [INFO] - writing response back for turn 3 for player 1
+21/09/2014 02:03:00.186] - [INFO] - message sent: took 94,666,023,915
+21/09/2014 02:03:26.663] - [SEVERE] - Exception thrown in getMove on turn 4
+java.lang.NullPointerException
+	at GameMap.bfs(GameMap.java:254)
+	at GameMap.whichPath(GameMap.java:112)
+	at PlayerAI.getMove(PlayerAI.java:56)
+	at ClientHandler.messageReceived(ClientHandler.java:85)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at ClientHandler.handleUpstream(ClientHandler.java:40)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.oio.OioWorker.process(OioWorker.java:71)
+	at org.jboss.netty.channel.socket.oio.AbstractOioWorker.run(AbstractOioWorker.java:73)
+	at org.jboss.netty.channel.socket.oio.OioWorker.run(OioWorker.java:51)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+21/09/2014 02:03:26.672] - [INFO] - writing response back for turn 4 for player 1
+21/09/2014 02:03:26.674] - [INFO] - message sent: took 26,370,841,597

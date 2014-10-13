@@ -1,0 +1,6 @@
+21/09/2014 01:42:40.686] - [INFO] - Client starting
+21/09/2014 01:42:40.844] - [INFO] - [id: 0xa54260ae] OPEN
+21/09/2014 01:42:40.862] - [INFO] - [id: 0xa54260ae, /127.0.0.1:3228 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:3228
+21/09/2014 01:42:40.864] - [INFO] - [id: 0xa54260ae, /127.0.0.1:3228 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
+21/09/2014 01:42:41.621] - [INFO] - writing response back for turn 1 for player 1
+21/09/2014 01:42:41.631] - [INFO] - message sent: took 89,895,196

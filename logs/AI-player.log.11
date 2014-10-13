@@ -1,0 +1,9 @@
+20/09/2014 06:06:04.988] - [INFO] - Client starting
+20/09/2014 06:06:05.180] - [INFO] - [id: 0xfef31143] OPEN
+20/09/2014 06:06:06.224] - [INFO] - [id: 0xfef31143] CLOSED
+20/09/2014 06:06:06.275] - [SEVERE] - Unexpected exception from upstream. java.nio.channels.ClosedChannelException
+
+20/09/2014 06:06:12.571] - [INFO] - Client starting
+20/09/2014 06:06:12.761] - [INFO] - [id: 0x65f6cc0b] OPEN
+20/09/2014 06:06:12.778] - [INFO] - [id: 0x65f6cc0b, /127.0.0.1:4699 => localhost/127.0.0.1:19999] BOUND: /127.0.0.1:4699
+20/09/2014 06:06:12.795] - [INFO] - [id: 0x65f6cc0b, /127.0.0.1:4699 => localhost/127.0.0.1:19999] CONNECTED: localhost/127.0.0.1:19999
